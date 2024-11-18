@@ -1,4 +1,4 @@
-function Task(probs){
+function Task(props){
 return (
     <li style={{background: probs.task.isCompleted ? 'green' : 'white'}}>
         {probs.task.taskName} 
